@@ -913,4 +913,89 @@ a {
   text-transform: capitalize;
   padding: 20px 48px;
   border-radius: 18px;
+}
+
+#footer {
+  padding-top: 140px;
+  padding-bottom: 57px;
+}
+#footer .footer_wrapper {
+  display: flex;
+  -moz-column-gap: 212px;
+       column-gap: 212px;
+}
+#footer .footer_wrapper .footer_left p {
+  font-family: "Nunito", sans-serif;
+  color: #29313D;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  text-transform: capitalize;
+  margin-top: 44px;
+  width: 449px;
+}
+#footer .footer_wrapper .footer_right {
+  display: flex;
+  -moz-column-gap: 160px;
+       column-gap: 160px;
+}
+#footer .footer_wrapper .footer_right .content_header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+#footer .footer_wrapper .footer_right .content_heading {
+  color: #29313D;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+#footer .footer_wrapper .footer_right .content_header ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+#footer .footer_wrapper .footer_right .content_header ul li a {
+  color: #29313D;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+  transition: all linear 0.2s;
+}
+#footer .footer_wrapper .footer_right .content_header ul li a:hover {
+  color: #8454F5;
+}
+#footer .footer_bottom_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+#footer .footer_bottom_text .paragraph {
+  font-family: "Nunito", sans-serif;
+  color: #29313D;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  text-transform: capitalize;
+}
+#footer .footer_bottom_text .paragraph:hover {
+  color: #8454F5;
+}
+#footer .footer_privacy {
+  display: flex;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+#footer .footer_privacy .paragraph {
+  font-family: "Nunito", sans-serif;
+  color: #29313D;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
