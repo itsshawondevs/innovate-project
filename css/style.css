@@ -820,4 +820,97 @@ a {
   height: inherit;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#trial {
+  padding: 140px 0;
+}
+#trial .heading {
+  font-size: 56px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #29313D;
+  line-height: 140%;
+  text-transform: capitalize;
+  width: 820px;
+  text-align: center;
+  margin: 0 auto;
+}
+#trial .trial_content {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 38px;
+       column-gap: 38px;
+}
+#trial .trial_content h4 {
+  color: #29313D;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  text-transform: capitalize;
+  position: relative;
+}
+#trial .trial_content h4::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -19px;
+  transform: translateY(-50%);
+  height: 17px;
+  width: 1px;
+  background-color: #29313D;
+}
+#trial .trial_content h4:last-child::after {
+  content: unset;
+}
+#trial .form_group {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#trial .form_group form {
+  width: 512px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+#trial .form_group form input {
+  width: inherit;
+  padding: 24px 0 24px 24px;
+  background-color: #F3EEFE;
+  border: none;
+  border-radius: 18px;
+  font-size: 20px;
+}
+#trial .form_group form input::-moz-placeholder {
+  color: #29313D;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180px;
+  text-transform: capitalize;
+}
+#trial .form_group form input::placeholder {
+  color: #29313D;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180px;
+  text-transform: capitalize;
+}
+#trial .form_group a {
+  background-color: #8454F5;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+  text-transform: capitalize;
+  padding: 20px 48px;
+  border-radius: 18px;
 }/*# sourceMappingURL=style.css.map */
